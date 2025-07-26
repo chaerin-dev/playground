@@ -24,3 +24,11 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.main-container {
+  @apply p-4;
+}
+
+.title {
+  @apply font-bold text-2xl mb-4;
+}
