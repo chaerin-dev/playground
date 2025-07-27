@@ -30,5 +30,9 @@ body {
 }
 
 .title {
-  @apply font-bold text-2xl mb-4;
+  @apply font-bold text-4xl mb-4;
+}
+
+.sub-title {
+  @apply font-bold text-2xl mb-2;
 }
