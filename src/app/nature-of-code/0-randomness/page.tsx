@@ -1,3 +1,4 @@
+import { SnakeRandomWalk } from "./components/SnakeRandomWalk";
 import { TraditionalRandomWalk } from "./components/TraditionalRandomWalk";
 
 export default function Randomness() {
@@ -7,6 +8,12 @@ export default function Randomness() {
 
       <h2 className="sub-title">Example 0.1: A Traditional Random Walk</h2>
       <TraditionalRandomWalk />
+
+      <br />
+      <br />
+
+      <h2 className="sub-title">Example 0.1.1: A Snake Random Walk</h2>
+      <SnakeRandomWalk />
     </div>
   );
 }
