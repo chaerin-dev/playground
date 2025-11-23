@@ -9,6 +9,9 @@ export default function Home() {
         <li>
           <Link href="/nature-of-code">Nature of Code</Link>
         </li>
+        <li>
+          <Link href="/react-example">React Example</Link>
+        </li>
       </ul>
     </div>
   );
